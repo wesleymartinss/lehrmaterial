@@ -90,6 +90,7 @@ GEM
     case_transform (0.2)
       activesupport
     childprocess (4.1.0)
+    choice (0.2.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.5.0)
@@ -190,6 +191,11 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
+    rails-erd (1.6.1)
+      activerecord (>= 4.2)
+      activesupport (>= 4.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
     railties (7.0.3)
@@ -224,6 +230,8 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.11.0)
+    ruby-graphviz (1.2.5)
+      rexml
     rubyzip (2.3.2)
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
@@ -285,6 +293,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors (~> 1.1)
   rails (~> 7.0.3)
+  rails-erd
   rspec-rails
   selenium-webdriver
   sprockets-rails

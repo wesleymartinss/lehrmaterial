@@ -1,24 +1,20 @@
-# README
+# Trabalho Laboratorio projeto de sistemas - Trabalho 2
+#Alunos
+Gabriel de Oliveira Koehler
+Wesley Santos Martins
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Esse trabalho consiste na criacao de um sistema simples utilizando boas práticas de acordo com as estorias de usuarios previamente definida. A Autenticação dessa aplicação é feita utilizando [Json Web Token](https://jwt.io/),
 
-* Ruby version
+# Stack
 
-* System dependencies
+O projeto está dividido entre Backend, FrontEnd e Banco de Dados. Foi utilizado a Linguagem Ruby, com os recursos do framework Rails para a escrita do backend. O FrontEnd Foi disponibilizado com um boilerplate do VueJS apenas para demonstração e o banco de dados Postgresql. Ambos Serviços foram utilizados localmente
 
-* Configuration
+-   Linguagens: Ruby
+-   Bancos de dados: PostgreSQL
+-   Front: VueJS
 
-* Database creation
+# Executando
 
-* Database initialization
+`git clone git@github.com:GabrielKoehler/lehrmaterial.git` para clonar o repositório em sua máquina.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
